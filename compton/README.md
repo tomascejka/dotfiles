@@ -15,8 +15,9 @@ $ touch ~/.config/compton.conf
 ```
 
 Content of compton file could be taken from:
-* https://github.com/chjj/compton/blob/master/compton.sample.conf << oficial 
-* https://duncanlock.net/blog/2013/06/07/how-to-switch-to-compton-for-beautiful-tear-free-compositing-in-xfce/ << contains comments 
+* oficial [compton.conf](https://github.com/chjj/compton/blob/master/compton.sample.conf) file
+* another [compton.conf](https://duncanlock.net/blog/2013/06/07/how-to-switch-to-compton-for-beautiful-tear-free-compositing-in-xfce/) which contains comments
+
 ... and restart compton (see below).
 
 ## Restart
