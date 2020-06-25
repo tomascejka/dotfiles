@@ -1,13 +1,27 @@
 # Compton
 What is [compositor](https://dev.to/l04db4l4nc3r/compositors-in-linux-1hhb#what-are-compositors) and why you should use it. Tool [compton](https://github.com/chjj/compton) is compositor implemetation. It is not critial component but it's useful to use it.
 
-## Install
+## Usage
+* Preconfigured use - use preconfigured bash script which install/configure compton
+* Standalone use - manually (step by step) installation and configuration
+
+## Preconfigured use
+Use preconfigured bash script (which install and configure compton) - `install-compton.sh` (TODO install compoton (debian apt-get), download compton configuration and copy into user's home directory).
+
+```bash
+$ wget install-compton.sh && chmod +x install-compton.sh && ./install-compton.sh 
+```
+
+## Standalone use
+If you want to use/install manually follow lines below.
+
+### Install
 Install compton via package manager (I am using debian/apt)
 ```bash
 $ apt-get install compton
 ```
 
-## Configuration
+### Configuration
 After instalation create file in `~/.config/compton.conf`:
 
 ```bash
