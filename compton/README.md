@@ -29,7 +29,7 @@ $ pkill compton && compton
 ... repeat the way until you are success with configuration (eg. inactive window transparency)
 
 ## Cooperation with window manager
-I am Awesome fan so there is a way how to cooperate with one; edit main configuration file ~/.config/awesome/rc.lua:
+I am [Awesome WM](https://awesomewm.org/) fan so there is a way how to cooperate with one; edit main configuration file `~/.config/awesome/rc.lua`:
 
 ```bash
 $ vi ~/.config/awesome/rc.lua
