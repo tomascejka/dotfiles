@@ -9,13 +9,10 @@ What is [compositor](https://dev.to/l04db4l4nc3r/compositors-in-linux-1hhb#what-
 Use preconfigured bash script (which install and configure compton) - `install-compton.sh` (TODO install compoton (debian apt-get), download compton configuration and copy into user's home directory).
 
 ```bash
-$ wget install-compton.sh && chmod +x install-compton.sh && ./install-compton.sh 
+$ wget https://github.com/tomascejka/dotfiles/blob/master/compton/install-compton.sh . && chmod +x install-compton.sh && ./install-compton.sh 
 ```
 
 ## Standalone use
-If you want to use/install manually follow lines below.
-
-### Install
 Install compton via package manager (I am using debian/apt)
 ```bash
 $ apt-get install compton
